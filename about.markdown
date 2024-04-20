@@ -4,15 +4,11 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+MINONIUM  
+ゲーム業界で背景中心にやっているフリーランスです。  
+ねこ3匹と一緒に、埼玉県に住んでいます。  
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
+### 経歴
+- Apr.2015:関西の某ゲーム会社に入社
+- Oct.2019:関東の某ゲーム会社に入社
+- Apr.2022:フリーランス
