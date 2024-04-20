@@ -28,8 +28,8 @@ twitter_username: m1n0n1um
 github_username:  MIN0NIUM
 
 # Build settings
-#theme: minima
-remote_theme: MIN0NIUM/jekyllthemes
+theme: minima
+#remote_theme: MIN0NIUM/jekyllthemes
 plugins:
   - jekyll-feed
 
