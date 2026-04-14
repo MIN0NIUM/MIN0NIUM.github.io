@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="MINONIUM - 3DCG Artist / Technical Artist. Blender, Houdini, Unreal, Unity, Substance, Python, JavaScriptを使用したゲーム背景・ツール制作">
+  <title>MINONIUM | 3DCG Artist / Technical Artist</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Sans+JP:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <nav class="nav">
+      <a href="#" class="nav-logo">MINONIUM</a>
+      <button class="nav-toggle" aria-label="メニューを開く">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="nav-menu">
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <!-- 背景動画（使用する場合はコメントを外してsrcを設定） -->
+      <!--
+      <video class="hero-video" autoplay muted loop playsinline>
+        <source src="videos/hero-background.mp4" type="video/mp4">
+      </video>
+      <div class="hero-overlay"></div>
+      -->
+      <div class="hero-content">
+        <h1 class="hero-title">MINONIUM</h1>
+        <p class="hero-subtitle">3DCG Artist / Technical Artist</p>
+      </div>
+    </section>
+
+    <section id="profile" class="section">
+      <div class="container">
+        <h2 class="section-title">Profile</h2>
+        <div class="profile-content">
+          <div class="profile-avatar">
+            <img src="images/profile.jpg" alt="MINONIUM">
+          </div>
+          <p class="profile-name">MINONIUM（ミノニウム）</p>
+          <p class="profile-text">
+            2015年にゲーム会社に新卒で入社し、2022年よりフリーランスとして活動しています。<br>
+            コンシューマゲーム制作の他、プロダクトCGの制作や制作支援ツールの作成も行ってきました。<br>
+            2025年、<strong>株式会社ねこのてスタジオ</strong>として活動を開始しました。
+          </p>
+
+          <div class="profile-details">
+            <div class="profile-item">
+              <h3>Tools</h3>
+              <ul class="tag-list">
+                <li>Blender</li>
+                <li>Houdini</li>
+                <li>Unreal</li>
+                <li>Unity</li>
+                <li>Substance</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+              </ul>
+            </div>
+
+            <div class="profile-item">
+              <h3>SNS</h3>
+              <ul class="social-links">
+                <li><a href="https://x.com/M1N0N1UM" target="_blank" rel="noopener noreferrer">X</a></li>
+                <li><a href="https://github.com/MIN0NIUM" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+                <li><a href="https://zenn.dev/min0nium" target="_blank" rel="noopener noreferrer">Zenn</a></li>
+                <li><a href="https://note.com/min0nium" target="_blank" rel="noopener noreferrer">note</a></li>
+                <li><a href="https://www.artstation.com/minonium" target="_blank" rel="noopener noreferrer">ArtStation</a></li>
+              </ul>
+            </div>
+
+            <div class="profile-item">
+              <h3>経歴</h3>
+              <ul class="career-list">
+                <li>2015年～2019年　京都のゲーム会社</li>
+                <li>2019年～2022年　東京のゲーム会社</li>
+                <li>2022年～　ゲーム制作中心にフリーランス</li>
+              </ul>
+            </div>
+          </div>
+
+          <p class="profile-notice">
+            現在、<strong>2026年7月からの仕事</strong>を探しております。<br>
+            お仕事の相談は<a href="#contact">Contact</a>からお願いいたします。
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="works" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Works</h2>
+        <p class="works-notice">個人制作で作成したものであり、仕事の成果や実績を示すものではありません。</p>
+
+        <div class="works-grid">
+          <article class="work-card" data-media="images/work-usually-cliff-sky-sea.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-usually-cliff-sky-sea.jpg" alt="Usually Cliff, Sky, Sea">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Usually Cliff, Sky, Sea</h3>
+              <p class="work-description">ゲーム背景としてよくある感じの崖、海、空を作成しました。</p>
+              <ul class="work-tags">
+                <li>Houdini</li>
+                <li>Megascans</li>
+                <li>Substance Designer</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-cute-cat.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-cute-cat.jpg" alt="Cute cat">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Cute cat</h3>
+              <p class="work-description">キャラクターリグとファーの習作として作成しました。</p>
+              <ul class="work-tags">
+                <li>Blender</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-pdg-rock-exporter.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-pdg-rock-exporter.jpg" alt="PDG Rock Exporter">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">PDG Rock Exporter</h3>
+              <p class="work-description">PDGについて教える講習会のため作成しました。コケの生えた岩を生成し、頂点カラーによりコケの厚さで頂点変形、マテリアルもブレンドしています。</p>
+              <ul class="work-tags">
+                <li>Houdini</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-output-comp-images.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-output-comp-images.jpg" alt="Output comp images">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Output comp images</h3>
+              <p class="work-description">レイヤカンプの状態ごとに画像を書き出します。2Dキャラクターパーツの重なり具合などを確認しながら出力できます。</p>
+              <ul class="work-tags">
+                <li>JavaScript</li>
+                <li>Photoshop</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-texture-exporter-photoshop.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-texture-exporter-photoshop.jpg" alt="Texture Exporter for Photoshop">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Texture Exporter for Photoshop</h3>
+              <p class="work-description">Photoshop上で特定のレイヤテンプレートを作成、テンプレートに合わせてテクスチャを出力します。1チャンネル成分はRGBに格納可能、任意の命名規則で出力できます。</p>
+              <ul class="work-tags">
+                <li>JavaScript</li>
+                <li>Photoshop</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-texture-exporter-blender.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-texture-exporter-blender.jpg" alt="Texture Exporter for Blender">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Texture Exporter for Blender</h3>
+              <p class="work-description">Blenderの各種マテリアルをUVにベイク、テンプレートに合わせてテクスチャを出力します。1チャンネル成分はRGBに格納可能、任意の命名規則で出力できます。</p>
+              <ul class="work-tags">
+                <li>Blender</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-unreal-asset-prep.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-unreal-asset-prep.jpg" alt="Unreal Asset Prep for Blender">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Unreal Asset Prep for Blender</h3>
+              <p class="work-description">Unreal向けStatic Meshアセットを出力します。</p>
+              <ul class="work-tags">
+                <li>Blender</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </article>
+
+          <article class="work-card" data-media="images/work-cycles-pass-exporter.jpg" data-media-type="image">
+            <div class="work-card-thumbnail">
+              <img src="images/work-cycles-pass-exporter.jpg" alt="Cycles Pass Exporter">
+            </div>
+            <div class="work-card-content">
+              <h3 class="work-title">Cycles Pass Exporter</h3>
+              <p class="work-description">各種パスごとに任意の画像フォーマットで出力</p>
+              <ul class="work-tags">
+                <li>Blender</li>
+                <li>Python</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="blog" class="section">
+      <div class="container">
+        <h2 class="section-title">Blog</h2>
+        <div class="blog-links">
+          <a href="https://zenn.dev/min0nium" class="blog-card" target="_blank" rel="noopener noreferrer">
+            <h3>Zenn</h3>
+            <p>技術系、ハッカソン参加感想などはこちら</p>
+          </a>
+          <a href="https://note.com/min0nium" class="blog-card" target="_blank" rel="noopener noreferrer">
+            <h3>note</h3>
+            <p>ライフハック系はこちら</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <div class="contact-content">
+          <p>お仕事のご依頼などはGoogle Formからお願いします。</p>
+          <p class="contact-notice">
+            なお、個人事業主ではなく<strong>法人としての契約</strong>になります。<br>
+            会社概要等については<a href="https://nekonotestudio.com/" target="_blank" rel="noopener noreferrer">ねこのてスタジオ</a>のサイトをご参照ください。
+          </p>
+          <a href="https://forms.gle/8QJ12UD8dKCjCyCMA" class="btn btn-primary" target="_blank" rel="noopener noreferrer">Google Formでお問い合わせ</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 MINONIUM / 株式会社ねこのてスタジオ</p>
+    </div>
+  </footer>
+
+  <!-- Media Modal -->
+  <div id="media-modal" class="modal" aria-hidden="true">
+    <div class="modal-overlay"></div>
+    <div class="modal-container">
+      <button class="modal-close" aria-label="閉じる">&times;</button>
+      <div class="modal-content">
+        <!-- 画像または動画がJSで挿入される -->
+      </div>
+    </div>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
